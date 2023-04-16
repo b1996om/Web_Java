@@ -1,0 +1,8 @@
+127.0.0.1 - - [16/Jan/2023:16:36:47 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:16:36:51 +0900] "GET /protest/exam03/listStudents.jsp HTTP/1.1" 200 741
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:16:36:51 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+127.0.0.1 - - [16/Jan/2023:16:37:01 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:16:37:02 +0900] "GET /protest/boad/* HTTP/1.1" 200 1981
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:16:37:37 +0900] "GET /protest/boad/studentlists HTTP/1.1" 200 1981
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:16:38:06 +0900] "GET /protest/boad/studentForm.do HTTP/1.1" 200 464
+0:0:0:0:0:0:0:1 - - [16/Jan/2023:16:38:24 +0900] "POST /protest/boad/addStudent.do HTTP/1.1" 200 2191

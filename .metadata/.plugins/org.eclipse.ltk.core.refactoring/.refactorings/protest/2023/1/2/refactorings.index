@@ -1,0 +1,27 @@
+1673523678649	Move 'login2.jsp' to 'test03'
+1673523816835	Rename resource 'test03'
+1673586320648	Move 'login2.jsp' to 'EXAM'
+1673586322800	Move 'result2.jsp' to 'EXAM'
+1673586326978	Delete element
+1673587235516	Delete element
+1673587239044	Delete element
+1673587241420	Delete element
+1673587243795	Delete element
+1673587261383	Rename resource 'exam_1번'
+1673587327207	Rename resource 'login1.jsp'
+1673587333462	Rename resource 'result1.jsp'
+1673588260728	Rename type 'protest'
+1673589709071	Rename resource 'student.jsp'
+1673589905002	Rename type 'studentServlet'
+1673589930642	Rename resource 'addStudent.jsp'
+1673590862580	Delete element
+1673590864446	Delete element
+1673591590970	Rename type 'studentDAO'
+1673592869644	Rename resource '시험_3번'
+1673593044594	Rename resource 'liststudents.jsp'
+1673598097331	Rename package 'exam_03'
+1673598117984	Rename package 'exam03'
+1673599016935	Delete element
+1673599019639	Delete element
+1673599043146	Delete element
+1673599049874	Delete element

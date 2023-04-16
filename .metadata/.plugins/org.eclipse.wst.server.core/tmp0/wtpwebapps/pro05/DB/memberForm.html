@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원 목록창</title>
+<script type="text/javascript">
+	function fn_sendMember() {
+		var frmMember = document.frmMember;
+		var id = frmMember.id.value;
+		var pwd = frmMember.pwd.value;
+		var name = frmMember.name.value;
+		var email = frmMember.email.value;
+		if(id.length==0 || id=="") {
+			alert("아이디는 필수입니다.");
+		} else if(pwd.length==0 || pwd=="") {
+			alert("비밀번호는 필수입니다.")
+		} else if(name.length==0 || name=="") {
+			alert("이름은 필수입니다.")
+		} else if(email.length==0 || email=="") {
+			alert("이메일은 필수입니다.")
+		} else {
+			frmMember.method="post";
+			frmMember.action="member6.jsp";//member~member7까지 이름바꿔서 실행해보기(동일한 결과, 점점 간결해지는 코드)
+			frmMember.submit();
+		}
+ 	}
+</script>
+<style>
+	body {
+		padding:0;
+		box-sizing:border-box;
+	}
+	.con {
+		width:300px;
+		margin:0 auto;
+	}
+	h3 {
+		color:purple;
+		font-size:20px;
+	}
+	table {
+		border-spacing:0 40px; /* 테이블 칸은 margin적용안됨.border-spacing사용하기. */
+	}
+</style>
+</head>
+<body>
+<div class="con">
+	<form name="frmMember">
+		<h3>회원가입창</h3>
+		<table style="height:100%;">
+			<tr class="tr">
+				<td>아이디</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr class="tr">
+				<td>비밀번호</td>
+				<td><input type="password" name="pwd"></td>
+			</tr>
+			<tr class="tr">
+				<td>이름</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr class="tr">
+				<td>이메일</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+		</table>
+		<input type="button" value="가입하기" onClick="fn_sendMember()">
+		<input type="reset" value="다시입력">
+		<input type="hidden" name="command" value="addMember" />
+	</form>
+	</div>
+</body> 
+</html>
